@@ -1,0 +1,40 @@
+2023-08-24 16:05:02,755 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-24 16:05:02,775 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-24 16:05:02,775 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:05:02,777 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:06:23,878 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-24 16:06:23,882 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-24 16:06:23,882 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:06:23,882 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:21:43,090 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-24 16:21:43,098 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:21:43,098 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:21:43,098 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:31:03,435 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-24 16:31:03,440 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:31:03,441 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:31:03,442 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:32:40,921 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-24 16:32:40,924 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:32:40,924 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:32:40,924 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:41:03,195 - [INFO]  - mysql_util.py - [26] : connected localhost:3306 with db 
+2023-08-24 16:41:03,204 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:41:03,204 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:41:03,205 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:41:40,419 - [INFO]  - mysql_util.py - [28] : connected localhost:3306 with db 
+2023-08-24 16:41:40,426 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:41:40,426 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:41:40,427 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:43:47,068 - [INFO]  - mysql_util.py - [28] : connected localhost:3306 with db 
+2023-08-24 16:43:47,077 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:43:47,078 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:43:47,079 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:45:38,824 - [INFO]  - mysql_util.py - [25] : connected localhost:3306 with db 
+2023-08-24 16:45:38,829 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:45:38,829 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:45:38,830 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-24 16:46:57,018 - [INFO]  - mysql_util.py - [25] : connected localhost:3306 with db 
+2023-08-24 16:46:57,019 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-08-24 16:46:57,019 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-24 16:46:57,019 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']

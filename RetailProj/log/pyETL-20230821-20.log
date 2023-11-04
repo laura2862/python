@@ -1,0 +1,67 @@
+2023-08-21 20:01:22,977 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-21 20:01:22,985 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-21 20:01:22,985 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-21 20:01:22,986 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata/test
+2023-08-21 20:01:22,987 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x08', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:01:23,038 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 1 records, the executed sql is SHOW TABLES
+2023-08-21 20:01:23,039 - [INFO]  - mysql_util.py - [57] : checking table metadata.processed_file exists
+2023-08-21 20:01:23,039 - [INFO]  - mysql_util.py - [66] : table processed_file has already existed in metadata
+2023-08-21 20:01:23,040 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 3 records, the executed sql is SELECT file_name from processed_file
+2023-08-21 20:01:23,040 - [INFO]  - mysql_util.py - [77] : accessed metadata_db, and get all processed file list (('/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01',), ('/Users/liuwenxuan/Workspace/testdata/x07',), ('/Users/liuwenxuan/Workspace/testdata/x08',)) in tableprocessed_file
+2023-08-21 20:01:23,040 - [INFO]  - json_service.py - [24] : these file in filelist have already been processed: ['/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x08']
+2023-08-21 20:01:23,040 - [INFO]  - json_service.py - [27] : these files need to be processed: ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:20:23,148 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-21 20:20:23,161 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-21 20:20:23,162 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-21 20:20:23,162 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x08', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:20:23,381 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 1 records, the executed sql is SHOW TABLES
+2023-08-21 20:20:23,381 - [INFO]  - mysql_util.py - [57] : checking table metadata.processed_file exists
+2023-08-21 20:20:23,381 - [INFO]  - mysql_util.py - [66] : table processed_file has already existed in metadata
+2023-08-21 20:20:23,383 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 3 records, the executed sql is SELECT file_name from processed_file
+2023-08-21 20:20:23,384 - [INFO]  - mysql_util.py - [77] : accessed metadata_db, and get all processed file list (('/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01',), ('/Users/liuwenxuan/Workspace/testdata/x07',), ('/Users/liuwenxuan/Workspace/testdata/x08',)) in tableprocessed_file
+2023-08-21 20:20:23,384 - [INFO]  - json_service.py - [24] : these file in filelist have already been processed: ['/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x08']
+2023-08-21 20:20:23,384 - [INFO]  - json_service.py - [27] : these files need to be processed: ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:23:10,782 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-21 20:23:10,789 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-21 20:23:10,789 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-21 20:23:10,790 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata/test
+2023-08-21 20:23:10,791 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x08', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:23:10,803 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 1 records, the executed sql is SHOW TABLES
+2023-08-21 20:23:10,803 - [INFO]  - mysql_util.py - [57] : checking table metadata.processed_file exists
+2023-08-21 20:23:10,803 - [INFO]  - mysql_util.py - [66] : table processed_file has already existed in metadata
+2023-08-21 20:23:10,804 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 3 records, the executed sql is SELECT file_name from processed_file
+2023-08-21 20:23:10,804 - [INFO]  - mysql_util.py - [77] : accessed metadata_db, and get all processed file list (('/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01',), ('/Users/liuwenxuan/Workspace/testdata/x07',), ('/Users/liuwenxuan/Workspace/testdata/x08',)) in tableprocessed_file
+2023-08-21 20:23:10,804 - [INFO]  - json_service.py - [24] : these file in filelist have already been processed: ['/Users/liuwenxuan/Downloads/黑马课程/大数据课程/04阶段：ETL项目实战/数据资料/JSON数据（订单业务）/x01', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x08']
+2023-08-21 20:23:10,804 - [INFO]  - json_service.py - [27] : these files need to be processed: ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:24:16,489 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-21 20:24:16,504 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-21 20:24:16,504 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-21 20:24:16,506 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata/test
+2023-08-21 20:24:16,507 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x08', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:24:16,531 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 0 records, the executed sql is SHOW TABLES
+2023-08-21 20:24:16,531 - [INFO]  - mysql_util.py - [57] : checking table metadata.processed_file exists
+2023-08-21 20:24:16,698 - [INFO]  - mysql_util.py - [44] : force executed sql :create table processed_file (
+ id int PRIMARY KEY AUTO_INCREMENT,
+    file_name varchar(100) UNIQUE not NULL,
+    process_line int comment 'the total line no of processed record',
+    processed_time TIMESTAMP DEFAULT current_timestamp COMMENT 'processed time')
+2023-08-21 20:24:16,699 - [INFO]  - mysql_util.py - [64] : create table processed_file in metadata, the create table sentance is create table processed_file (
+ id int PRIMARY KEY AUTO_INCREMENT,
+    file_name varchar(100) UNIQUE not NULL,
+    process_line int comment 'the total line no of processed record',
+    processed_time TIMESTAMP DEFAULT current_timestamp COMMENT 'processed time')
+2023-08-21 20:24:16,705 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 0 records, the executed sql is SELECT file_name from processed_file
+2023-08-21 20:24:16,705 - [INFO]  - mysql_util.py - [77] : accessed metadata_db, and get all processed file list () in tableprocessed_file
+2023-08-21 20:24:16,705 - [INFO]  - json_service.py - [24] : these file in filelist have already been processed: []
+2023-08-21 20:24:16,705 - [INFO]  - json_service.py - [27] : these files need to be processed: ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/test/subfile-x01', '/Users/liuwenxuan/Workspace/testdata/x06', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x08', '/Users/liuwenxuan/Workspace/testdata/x09', '/Users/liuwenxuan/Workspace/testdata/x07', '/Users/liuwenxuan/Workspace/testdata/x10', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x05', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:25:57,901 - [INFO]  - mysql_util.py - [24] : connected localhost:3306 with db 
+2023-08-21 20:25:57,909 - [INFO]  - json_service.py - [8] : visited jason_service, start to process jason file....
+2023-08-21 20:25:57,909 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-08-21 20:25:57,909 - [INFO]  - json_service.py - [13] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']
+2023-08-21 20:25:57,924 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 1 records, the executed sql is SHOW TABLES
+2023-08-21 20:25:57,924 - [INFO]  - mysql_util.py - [57] : checking table metadata.processed_file exists
+2023-08-21 20:25:57,924 - [INFO]  - mysql_util.py - [66] : table processed_file has already existed in metadata
+2023-08-21 20:25:57,925 - [INFO]  - mysql_util.py - [34] : executed sql the result includes 0 records, the executed sql is SELECT file_name from processed_file
+2023-08-21 20:25:57,925 - [INFO]  - mysql_util.py - [77] : accessed metadata_db, and get all processed file list () in tableprocessed_file
+2023-08-21 20:25:57,925 - [INFO]  - json_service.py - [24] : these file in filelist have already been processed: []
+2023-08-21 20:25:57,925 - [INFO]  - json_service.py - [27] : these files need to be processed: ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']

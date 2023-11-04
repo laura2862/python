@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+
+    <body>
+        <form action="http://127.0.0.1:8080" method="get">
+            <label>user name: </label>
+            <input type='text' name='name'> </br></br>
+            <label>password: </label>
+            <input type="password" name="psw"></br></br>
+            <label>gender: </label></br>
+           <input type="radio" name="gender" value="male"> male</br>
+            <input type="radio" name="gender" value="female"> female</br></br>
+            <label> courses: </label></br>
+            <input type="checkbox" name="subject" value="python"> python</br>
+            <input type="checkbox" name="subject" value="data"> Data</br>
+            <input type="checkbox" name="subject" value="ETL"> ETL</br></br>
+            <label>desc:</label></br>
+            <input type="textarea" row="5" cols="10"> </br></br>
+            <label>country</label>
+            <select name="country">
+                <option value="china">china</option></br>
+                <option value="korea">korea</option></br>
+                <option value="japan">japan</option></br>
+
+            </select>
+            <br>
+            <p>
+                 <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <input type="button" value="none">
+            </p>
+
+
+
+        </form>
+    </body>
+
+</html>

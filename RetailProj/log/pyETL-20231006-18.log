@@ -1,0 +1,4 @@
+2023-10-06 18:41:54,347 - [INFO]  - mysql_util.py - [25] : connected localhost:3306 with db 
+2023-10-06 18:41:54,368 - [INFO]  - json_service.py - [9] : visited jason_service, start to process jason file....
+2023-10-06 18:41:54,368 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/testdata
+2023-10-06 18:41:54,371 - [INFO]  - json_service.py - [14] : get filelist : ['/Users/liuwenxuan/Workspace/testdata/.DS_Store', '/Users/liuwenxuan/Workspace/testdata/x01', '/Users/liuwenxuan/Workspace/testdata/x02', '/Users/liuwenxuan/Workspace/testdata/x04', '/Users/liuwenxuan/Workspace/testdata/x03']

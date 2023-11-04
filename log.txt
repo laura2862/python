@@ -1,0 +1,5 @@
+ file name:  loggingPrac.py, line No: 17, time-stamp: 2023-08-15 23:44:25,557, message: ... debuging, logging leve: DEBUG
+ file name:  loggingPrac.py, line No: 18, time-stamp: 2023-08-15 23:44:25,558, message: ...this is logging info, logging leve: INFO
+ file name:  loggingPrac.py, line No: 19, time-stamp: 2023-08-15 23:44:25,558, message: ... this is warning, logging leve: WARNING
+ file name:  loggingPrac.py, line No: 20, time-stamp: 2023-08-15 23:44:25,558, message: ...this is error, logging leve: ERROR
+ file name:  loggingPrac.py, line No: 21, time-stamp: 2023-08-15 23:44:25,558, message: ...this is critical, logging leve: CRITICAL

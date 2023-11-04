@@ -1,0 +1,4 @@
+2023-08-24 15:57:42,924 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/pythonProject1/RetailProj/test/test_dir
+2023-08-24 15:57:42,925 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/pythonProject1/RetailProj/test/test_dir
+2023-08-24 15:57:42,925 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/pythonProject1/RetailProj/test/test_dir/inner 1
+2023-08-24 15:57:42,925 - [INFO]  - file_util.py - [10] :  reading all filenames under the /Users/liuwenxuan/Workspace/pythonProject1/RetailProj/test/test_dir/inner 1/inner 2
